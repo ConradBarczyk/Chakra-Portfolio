@@ -9,14 +9,14 @@ const ResumePage = ():JSX.Element => {
   const jumbo:Jumbo = {
     title: 'Resume',
     subtitle: 'Life experience is the best experience!',
-    description: 'Checkout what I\'ve been working on'
+    description: 'Check out what I\'ve been working on'
 }
   return(
     <>
       <Jumbotrance {...jumbo}/>
       <Center>
         <Grid
-          templateRows={["repeat(2, 1fr)","repeat(2, 1fr)","repeat(4, 1fr)","repeat(4, 1fr)"]}
+          templateRows={["repeat(2, 1fr)","repeat(1, 1fr)","repeat(4, 1fr)","repeat(4, 1fr)"]}
           templateColumns="repeat(8, 1fr)"
           gap={4}
           w='90%'

@@ -19,3 +19,10 @@ export interface Project {
     link: string;
     linkPlaceholder: string;
 }
+
+export interface Flip {
+    title: string;
+    description: string;
+    image: string;
+    imageAlt: string;
+}

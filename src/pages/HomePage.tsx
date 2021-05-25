@@ -42,7 +42,7 @@ const HomePage = ():JSX.Element => {
         techs: ['NodeJs','Next.js','React', 'Laravel Nova'],
         image: gvpic,
         imageAlt: 'Global Vilages logo',
-        link: 'https://shop.globalvillagesdev.com/',
+        link: 'https://globalvillages.ca/',
         linkPlaceholder: 'Check out the early result!'},
 
         {title: 'CBA Mining',

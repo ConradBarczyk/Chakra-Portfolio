@@ -26,7 +26,7 @@ const HomePage = ():JSX.Element => {
         techs: ['Ionic','React','Typescript'],
         image: ionicLogo,
         imageAlt: 'bmiImage',
-        link: '/project/bmi',
+        link: '/project/bmi/index.html',
         linkPlaceholder: 'Where do you land?'},
 
         {title: 'BlockMath',

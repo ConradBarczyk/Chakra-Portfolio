@@ -11,8 +11,9 @@ import Footer from './components/Footer';
 
 
 export const App = () => (
-  <ChakraProvider>
+  
     <BrowserRouter>
+    <ChakraProvider>
       <Header/>
       <Switch>
         <Route path="/" exact render={() => <HomePage />} />
@@ -21,7 +22,6 @@ export const App = () => (
         <Route path="/contact" render={() => <ContactPage />} />
       </Switch>
       <Footer />
+      </ChakraProvider>
     </BrowserRouter>
-  </ChakraProvider>
-
 )
